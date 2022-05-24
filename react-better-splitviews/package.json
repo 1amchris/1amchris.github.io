@@ -1,0 +1,28 @@
+{
+  "name": "react-better-splitviews-demo",
+  "version": "1.0.0",
+  "description": "A demo for 1amChris's react-better-splitviews npm package",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Christophe Beaulieu",
+  "license": "ISC",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-better-splitviews": "^1.1.2",
+    "react-dom": "17.0.1",
+    "react-resize-detector": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.16.2",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5"
+  }
+}
