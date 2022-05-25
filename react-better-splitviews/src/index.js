@@ -96,11 +96,10 @@ const App = () => {
       <SplitView direction="column">
         <SplitView style={{ height: 500 }}>
           <View
-            style={{ minWidth: "15%" }}
             content={{
               title: "View 1",
               paragraphs: [
-                "minWidth: 15%",
+                // "minWidth: 15%",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nunc est. Pellentesque tempus molestie turpis, sed imperdiet quam volutpat at. ",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nunc est. Pellentesque tempus molestie turpis, sed imperdiet quam volutpat at. ",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nunc est. Pellentesque tempus molestie turpis, sed imperdiet quam volutpat at. ",
@@ -120,11 +119,12 @@ const App = () => {
             }}
           />
           <View
-            style={{ minWidth: 125 }}
+            style={{ minWidth: 125, maxWidth: 250 }}
             content={{
               title: "View 3",
               paragraphs: [
                 "minWidth: 125px",
+                "maxWidth: 250px",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nunc est. Pellentesque tempus molestie turpis, sed imperdiet quam volutpat at. ",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nunc est. Pellentesque tempus molestie turpis, sed imperdiet quam volutpat at. ",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nunc est. Pellentesque tempus molestie turpis, sed imperdiet quam volutpat at. ",
@@ -133,9 +133,11 @@ const App = () => {
           />
         </SplitView>
         <View
+          style={{ height: "25%", maxHeight: "90%" }}
           content={{
             title: "Panel",
             paragraphs: [
+              "maxHeight: 90%",
               "This is a great panel. Do something about it, or don't. idk",
             ],
           }}
